@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Mario Kart DS (EUR)",
+        "digest": "d1dd7a96e6c8c912faac2e4accb83682de0f42bac34f1ad5313d6cb78fb8d225",
+        "imgFile": "mkds_eur.png",
+        "patches": 
+        [
+            {
+                "name": "CTGP-Nitro 1.0",
+                "fileName": "CTGP_Nitro_EU.xdelta",
+                "fileUri": "https://github.com/rocoloco321/Nitro-Revolution-Releases/releases/download/1.0-CTGPNitro/CTGP_Nitro_EU.xdelta",
+                "patchedRomFileName": "CTGP-Nitro 1.0.nds"
+            }
+        ]
+    },
+    {
+        "name": "Mario Kart DS (USA)",
+        "digest": "0ea8a91a0ae3e9db26337c25a6a8568f6737fa36c1e0761988c0fa0ecbf210ed",
+        "imgFile": "mkds_eur.png",
+        "patches": 
+        [
+            {
+                "name": "CTGP-Nitro 1.0",
+                "fileName": "CTGP_Nitro_US.xdelta",
+                "fileUri": "https://github.com/rocoloco321/Nitro-Revolution-Releases/releases/download/1.0-CTGPNitro/CTGP_Nitro_US.xdelta",
+                "patchedRomFileName": "CTGP-Nitro 1.0.nds"
+            }
+        ]
+    }
+]

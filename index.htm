@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CTGP Nitro Patcher</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="CTGP Nitro Patcher and updater.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="CTGP Nitro Patcher">
+    <meta name="twitter:description" content="CTGP Nitro Patcher and updater">
+    <meta name="twitter:site" content="@ermelber">
+
+    <meta name="og:title" content="ErmiiSoft">
+    <meta name="og:description" content="CTGP Nitro Patcher and updater.">
+    <meta name="og:type" content="product">
+    <meta name="og:site_name" content="ErmiiSoft">
+    <meta name="og:url" content="https://ermiisoft.net/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/js/base.js"></script>
+    <script src="public/RomPatcher.js/js/MarcFile.js"></script>
+    <script src="public/RomPatcher.js/js/zip.js/inflate.js"></script>
+    <script src="public/RomPatcher.js/js/crc.js"></script>
+    <script src="public/RomPatcher.js/js/formats/vcdiff.js"></script>
+    <script src="public/RomPatcher.js/js/formats/zip.js"></script>
+</head>
+
+<body>
+    <header style="text-align: center;">
+        <img width="500px" src="https://dswiki.garhoogin.com/ctgp-n/resources/logo.png"/>
+        <h1>Web Patcher</h1>
+    </header>
+
+    <main id="main-content">
+        <div class="card">
+            <div class="card-content" id="step-1">
+                <h3>Step 1 - Upload your ROM</h2>
+                    <input type="file" accept=".nds" onchange="onInputRomUploaded(this)">
+
+                    <div id="rom-info-content" style="display: none">
+                        <a href="javascript:void(0)" id="rom-info-name">Unsupported ROM</a>
+                        <div id="rom-info-digest"></div>
+                        <img id="rom-info-image" src="assets/img/mkds_eur.png">
+                    </div>
+
+                    <div class="card-content" id="step-2" style="display: none">
+                        <h3>Step 2 - Select patch</h3>
+
+                        <select id="romPatchesSelector">
+                            <option>CTGP Nitro Legacy Edition 1.0</option>
+                        </select>
+
+                        <a id="btn-wait" style="display: none;" href="javascript:void(0)" class="btn btn-disabled">Please wait...</a>
+                        <a id="btn-patch" href="javascript:void(0)" class="btn" onclick="patchRom()">Apply Patch!</a>
+                    </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer id="footer">
+        <p>
+            <span>CTGP Nitro team, 2020-2022</span>
+        </p>
+        <p>
+            <span>© 2023 Ermelber</span>
+        </p>
+        <p>
+            <a target="_blank" class="mx-1" href="https://github.com/Ermelber/CTGPNitroWebPatcher">
+                <img class="svg-icon" src="assets/svg/github.svg" />
+            </a>
+        </p>
+        <p>
+            Based on <a target="_blank" href="https://github.com/marcrobledo/RomPatcher.js">RomPatcher.js</a> by <a
+                target="_blank" href="https://www.marcrobledo.com/">Marc Robledo</a> (MIT License)
+        </p>
+    </footer>
+</body>
+
+</html>
