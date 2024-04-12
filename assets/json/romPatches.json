@@ -6,10 +6,10 @@
         "patches": 
         [
             {
-                "name": "CTGP-Nitro 1.0",
+                "name": "CTGP-Nitro 1.1.0",
                 "fileName": "CTGP_Nitro_EU.xdelta",
-                "fileUri": "https://github.com/rocoloco321/Nitro-Revolution-Releases/releases/download/1.0-CTGPNitro/CTGP_Nitro_EU.xdelta",
-                "patchedRomFileName": "CTGP-Nitro 1.0.nds"
+                "fileUri": "https://github.com/Ermelber/CTGPNitroWebPatcher/releases/download/v1.1.0/1.1.0_EU.xdelta",
+                "patchedRomFileName": "CTGP-Nitro 1.1.0.nds"
             }
         ]
     },
@@ -20,10 +20,24 @@
         "patches": 
         [
             {
-                "name": "CTGP-Nitro 1.0",
+                "name": "CTGP-Nitro 1.1.0",
                 "fileName": "CTGP_Nitro_US.xdelta",
-                "fileUri": "https://github.com/rocoloco321/Nitro-Revolution-Releases/releases/download/1.0-CTGPNitro/CTGP_Nitro_US.xdelta",
-                "patchedRomFileName": "CTGP-Nitro 1.0.nds"
+                "fileUri": "https://github.com/Ermelber/CTGPNitroWebPatcher/releases/download/v1.1.0/1.1.0_US.xdelta",
+                "patchedRomFileName": "CTGP-Nitro 1.1.0.nds"
+            }
+        ]
+    },
+    {
+        "name": "Mario Kart DS (JP)",
+        "digest": "dc20205921af99f6b3bfd36a50d9bb0077799a1c432432cc984594d2da0c31ec",
+        "imgFile": "mkds_jpn.png",
+        "patches": 
+        [
+            {
+                "name": "CTGP-Nitro 1.1.0",
+                "fileName": "CTGP_Nitro_JP.xdelta",
+                "fileUri": "https://github.com/Ermelber/CTGPNitroWebPatcher/releases/download/v1.1.0/1.1.0_JP.xdelta",
+                "patchedRomFileName": "CTGP-Nitro 1.1.0.nds"
             }
         ]
     }
